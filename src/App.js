@@ -38,7 +38,16 @@ class App extends Component {
     this.shuffleArray(doctors);
     return (
       <div className="App">
-      Score: {this.state.score}
+      <h1>
+        The Thirteen Doctors Clicky Game
+      </h1>
+      <p>
+        <strong>Instructions:</strong>
+        Click on one of the Doctors to increase your score. If you click the same Doctor twice in a row, your score resets to zero. The Doctors are reshuffled after every turn.
+      </p>
+      <h2>
+        Score: {this.state.score}
+      </h2>
       <Wrapper>
       {doctors.map(doctor => (
         <DoctorCard {...doctor} key={doctor.id} handleClick={this.handleClick} />
