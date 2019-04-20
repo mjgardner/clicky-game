@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Thirteen Doctors Clicky Game
+
+*Instructions:* Click on one of the Doctors to increase your score. If you click the same Doctor twice in a row, your score resets to zero. The Doctors are reshuffled after every turn.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Read on for instructions on how to run, test, and build the application locally using [Node.js](https://nodejs.org/).
 
 ## Available Scripts
 
